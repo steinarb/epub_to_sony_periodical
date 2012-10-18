@@ -18,3 +18,11 @@ xsltproc command line utilities (google them).
 
 The script also requires the ebook-convert command line utility from
 the ebook management program calibre: http://calibre-ebook.com/
+
+Usage:
+ - Copy the epub file to be converted to the script directory
+ - Run the command (replace "input_file".epub with your actual file name)
+    ./epub_to_sony_periodical.sh input_file.epub
+
+After the command has been run the periodicalized version of the file
+will be in the file periodical.epub.
