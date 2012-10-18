@@ -12,3 +12,9 @@ the most recently read collection).
 
 There is also a TOC button shown all the time in periodicals, for
 quick navigation.
+
+The script runs in bourne shell and requires the zip and unzip and
+xsltproc command line utilities (google them).
+
+The script also requires the ebook-convert command line utility from
+the ebook management program calibre: http://calibre-ebook.com/
