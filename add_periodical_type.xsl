@@ -6,8 +6,7 @@
   <metadata  xmlns:dc="http://purl.org/dc/elements/1.1/">
    <xsl:apply-templates select="@* | node()"/>
    <meta name="calibre:publication_type" content="periodical:magazine:Lightspeed Magazine"/>
-   <xsl:text>
-</xsl:text>
+   <xsl:text>&#xa;</xsl:text> <!-- Insert line break before the metadata end tag -->
   </metadata>
  </xsl:template>
 
